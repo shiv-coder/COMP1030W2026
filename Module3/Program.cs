@@ -35,10 +35,12 @@
             /* STEP 4: Assign a value to the variable at the same time it is declared */
 
 
-
+            string guest2Name = "Jacob";
 
             /* STEP 5: Combine two strings using an EXPRESSION with two operands, and an operator */
 
+            string guessList = "Guest at the party includes: " + guest1Name + " and " + guest2Name;
+            Console.WriteLine(guessList);
 
 
             /* STEP 6: Declare a variable to contain a WHOLE number
@@ -47,6 +49,8 @@
              * type long - has a range up to 9,223,372,036,854,775,807 (postive and negative)
              */
 
+            int maxNumberGuests = 50;
+            //short age = 30;
 
 
 
@@ -55,18 +59,29 @@
              * type double - stores numbers with 15 digits of precision (with over 300 digits)
              * type decimal - stores numbers with up to 28 digits of precision (but is limited to 28 digits)
              */
-
+            double partyExpenses = 245.55;
 
 
 
             /* STEP 8: Performing calculations
              * Operator precedence is what you might expect
+             * BODMAS
              * Consider the below:
              */
 
+            int a = 45;
+            int b = 50;
+
+            int c = a + b;
 
 
+            Console.WriteLine("The addition of a + b is :" + c);
 
+            c = c * (a + b);
+
+            int d = (a + b) / (a - b);
+
+            Console.WriteLine("The output of d is :" + d);
 
             /* What will the final value of a, b, and c be after the following calculations? */
 
@@ -81,6 +96,14 @@
              * either side of the + symbol is a number, C# automatically converts it to string.
              * Alternatively, we can use the ToString() method.
              */
+            string bText = b.ToString();
+            Console.WriteLine(bText + 10);
+
+            //text to number
+            string x = "123";
+            //int number = Convert.ToInt32(x);
+            int number = int.Parse(x);
+            Console.WriteLine(number + 10);
 
 
 
@@ -89,7 +112,9 @@
              * Declare another variable of type int to contain the above value in centigrade.
              * Note that the compiler complains about the second variable type...change it to double.
              */
-
+            int tempFahrenheit = 54;
+            float tempCelcius = (tempFahrenheit - 32) / 1.8F;
+            Console.WriteLine(tempCelcius);
 
 
 
@@ -143,22 +168,50 @@
 
             /* STEP 11: Declare and initialize all variables */
 
+            Console.Clear();
 
+            string item1 = "Milk";
+            double price1 = 3.99;
+
+            string item2 = "Bread";
+            double price2 = 6.99;
+
+            string item3 = "Eggs";
+            double price3 = 9.99;
+
+            string methodOfPayment = "Debit";
 
 
             /* STEP 12: The receipt layout is 30 characters in width. Create an empty line
              * of dots that will fill the space between the food item and the price. */
 
-
+            int receiptWidth = 30;
+            string dotLeader = new string('.', receiptWidth);
+            Console.WriteLine(dotLeader);
 
 
             /* STEP 13a: To build a line, we need to know how many characters there are in
              * the item name, and the price. We will need to convert the price to a string. */
 
+            int item1NumChar = item1.Length;
+            string price1String = price1.ToString();
+            int price1NumChar = price1String.Length;
 
 
 
+            int item2NumChar = item2.Length;
+            string price2String = price2.ToString();
+            int price2NumChar = price2String.Length;
 
+
+
+            int item3NumChar = item3.Length;
+            string price3String = price3.ToString();
+            int price3NumChar = price3String.Length;
+
+            int line1NumChar = item1NumChar + price1NumChar;
+            int line2NumChar = item2NumChar + price2NumChar;
+            int line3NumChar = item3NumChar + price3NumChar;
 
 
 
@@ -166,6 +219,11 @@
 
             /* STEP 13b: Edit the dot leader string so that it is the correct length to fit
              * between the item string and the price. */
+            string line1DotLeader = dotLeader.Remove(0, line1NumChar);
+            Console.WriteLine(line1DotLeader);
+            string line2DotLeader = dotLeader.Remove(0, line2NumChar);
+            string line3DotLeader = dotLeader.Remove(0, line3NumChar);
+
 
 
             /* Test it out */
@@ -177,16 +235,11 @@
 
 
             /* STEP 14: Calculate the subtotal */
-
-
-
+            double subTotal = price1 + price2 + price3;
 
             /* STEP 15: Calculate the tax */
-
-
-
-
-
+            double Tax = subTotal * 0.13;
+            double total = subTotal + Tax;
 
             /* STEP 16: Output the food items (include new line characters where needed) */
 
