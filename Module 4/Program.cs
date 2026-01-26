@@ -4,6 +4,8 @@
     {
         static void Main(string[] args)
         {
+
+            Program1.Run();
             // STEP 1: Create a random number between 0 and 24 to represent the hour of the day
             Random rand = new Random();
             int hour = rand.Next(0, 24);

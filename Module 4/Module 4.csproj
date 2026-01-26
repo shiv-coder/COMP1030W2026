@@ -6,6 +6,7 @@
     <RootNamespace>Module_4</RootNamespace>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <StartupObject>Module_4.Program</StartupObject>
   </PropertyGroup>
 
 </Project>
