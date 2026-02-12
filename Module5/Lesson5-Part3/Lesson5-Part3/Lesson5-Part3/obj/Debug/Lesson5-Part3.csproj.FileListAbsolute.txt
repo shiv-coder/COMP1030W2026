@@ -1,0 +1,8 @@
+C:\COMP1030-02\repos\COMP1030F2025\Lesson5-Part3\Lesson5-Part3\bin\Debug\Lesson5-Part3.exe.config
+C:\COMP1030-02\repos\COMP1030F2025\Lesson5-Part3\Lesson5-Part3\bin\Debug\Lesson5-Part3.exe
+C:\COMP1030-02\repos\COMP1030F2025\Lesson5-Part3\Lesson5-Part3\bin\Debug\Lesson5-Part3.pdb
+C:\COMP1030-02\repos\COMP1030F2025\Lesson5-Part3\Lesson5-Part3\obj\Debug\Lesson5-Part3.csproj.AssemblyReference.cache
+C:\COMP1030-02\repos\COMP1030F2025\Lesson5-Part3\Lesson5-Part3\obj\Debug\Lesson5-Part3.csproj.CoreCompileInputs.cache
+C:\COMP1030-02\repos\COMP1030F2025\Lesson5-Part3\Lesson5-Part3\obj\Debug\Lesson5-Part3.exe
+C:\COMP1030-02\repos\COMP1030F2025\Lesson5-Part3\Lesson5-Part3\obj\Debug\Lesson5-Part3.pdb
+C:\COMP1030-02\repos\COMP1030F2025\Lesson5-Part3\Lesson5-Part3\obj\Debug\Lesson5-Part3.exe.config
