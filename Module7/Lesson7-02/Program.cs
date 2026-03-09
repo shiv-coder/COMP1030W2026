@@ -14,7 +14,8 @@ namespace Lesson7_02
 
             //Multidimesnional array
             /* int[] -1D array-{1,2,3}
-             * int[,]->2D->rows and columns array-->{{1,2},{3,4}
+             * int[,]->2D->rows and columns array-->{{1,2},
+             *                                       {3,4}
              * int [,,]-> 3D array(cube)
              *           * 
              * 
@@ -76,22 +77,22 @@ namespace Lesson7_02
 
             //Jagged Arrays:beacuse the rows (inner arrays) can have different length
 
-            //int[][] jaggedSales = new int[5][];
-            //jaggedSales[0] = new int[] { 120, 90 };
-            //jaggedSales[1] = new int[] { 120, 90, 75 };
-            //jaggedSales[2] = new int[] { 30 };
-            //jaggedSales[3] = new int[] { 120, 90, 75 };
-            //jaggedSales[4] = new int[] { 120, 90, 75 };
-            //for (int i = 0; i < jaggedSales.Length; i++)
-            //{
-            //    Console.Write($" Stand{i + 1}: ");
+            int[][] jaggedSales = new int[5][];
+            jaggedSales[0] = new int[] { 120, 90 };
+            jaggedSales[1] = new int[] { 120, 90, 75 };
+            jaggedSales[2] = new int[] { 30 };
+            jaggedSales[3] = new int[] { 120, 90, 75 };
+            jaggedSales[4] = new int[] { 120, 90, 75 };
+            for (int i = 0; i < jaggedSales.Length; i++)
+            {
+                Console.Write($" Stand{i + 1}: ");
 
-            //    for (int j = 0; j < jaggedSales[i].Length; j++)
-            //    {
-            //        Console.Write(jaggedSales[i, j] + " ");
-            //    }
-            //    Console.WriteLine();
-            //}
+                for (int j = 0; j < jaggedSales[i].Length; j++)
+                {
+                    Console.Write(jaggedSales[i][j] + " ");
+                }
+                Console.WriteLine();
+            }
 
 
             //List in Csharp
