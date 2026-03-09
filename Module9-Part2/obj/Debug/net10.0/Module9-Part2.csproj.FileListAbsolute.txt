@@ -1,0 +1,15 @@
+C:\COMP1030W2026\Module9-Part2\bin\Debug\net10.0\Module9-Part2.exe
+C:\COMP1030W2026\Module9-Part2\bin\Debug\net10.0\Module9-Part2.deps.json
+C:\COMP1030W2026\Module9-Part2\bin\Debug\net10.0\Module9-Part2.runtimeconfig.json
+C:\COMP1030W2026\Module9-Part2\bin\Debug\net10.0\Module9-Part2.dll
+C:\COMP1030W2026\Module9-Part2\bin\Debug\net10.0\Module9-Part2.pdb
+C:\COMP1030W2026\Module9-Part2\obj\Debug\net10.0\Module9-Part2.GeneratedMSBuildEditorConfig.editorconfig
+C:\COMP1030W2026\Module9-Part2\obj\Debug\net10.0\Module9-Part2.AssemblyInfoInputs.cache
+C:\COMP1030W2026\Module9-Part2\obj\Debug\net10.0\Module9-Part2.AssemblyInfo.cs
+C:\COMP1030W2026\Module9-Part2\obj\Debug\net10.0\Module9-Part2.csproj.CoreCompileInputs.cache
+C:\COMP1030W2026\Module9-Part2\obj\Debug\net10.0\Module9-Part2.sourcelink.json
+C:\COMP1030W2026\Module9-Part2\obj\Debug\net10.0\Module9-Part2.dll
+C:\COMP1030W2026\Module9-Part2\obj\Debug\net10.0\refint\Module9-Part2.dll
+C:\COMP1030W2026\Module9-Part2\obj\Debug\net10.0\Module9-Part2.pdb
+C:\COMP1030W2026\Module9-Part2\obj\Debug\net10.0\Module9-Part2.genruntimeconfig.cache
+C:\COMP1030W2026\Module9-Part2\obj\Debug\net10.0\ref\Module9-Part2.dll
