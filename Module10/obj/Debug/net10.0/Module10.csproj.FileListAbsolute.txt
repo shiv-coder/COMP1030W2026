@@ -1,0 +1,15 @@
+C:\COMP1030W2026\Module10\bin\Debug\net10.0\Module10.exe
+C:\COMP1030W2026\Module10\bin\Debug\net10.0\Module10.deps.json
+C:\COMP1030W2026\Module10\bin\Debug\net10.0\Module10.runtimeconfig.json
+C:\COMP1030W2026\Module10\bin\Debug\net10.0\Module10.dll
+C:\COMP1030W2026\Module10\bin\Debug\net10.0\Module10.pdb
+C:\COMP1030W2026\Module10\obj\Debug\net10.0\Module10.GeneratedMSBuildEditorConfig.editorconfig
+C:\COMP1030W2026\Module10\obj\Debug\net10.0\Module10.AssemblyInfoInputs.cache
+C:\COMP1030W2026\Module10\obj\Debug\net10.0\Module10.AssemblyInfo.cs
+C:\COMP1030W2026\Module10\obj\Debug\net10.0\Module10.csproj.CoreCompileInputs.cache
+C:\COMP1030W2026\Module10\obj\Debug\net10.0\Module10.sourcelink.json
+C:\COMP1030W2026\Module10\obj\Debug\net10.0\Module10.dll
+C:\COMP1030W2026\Module10\obj\Debug\net10.0\refint\Module10.dll
+C:\COMP1030W2026\Module10\obj\Debug\net10.0\Module10.pdb
+C:\COMP1030W2026\Module10\obj\Debug\net10.0\Module10.genruntimeconfig.cache
+C:\COMP1030W2026\Module10\obj\Debug\net10.0\ref\Module10.dll
