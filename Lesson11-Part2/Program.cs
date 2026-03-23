@@ -25,8 +25,9 @@ Consider the above list: the first two elements are sort of like properties of t
 
             // STEP 7a: Create a new instance of the object BankAccount - declare and initialize the variable account, with a new BankAccount using your name and the initial balance as the two arguments
 
+            var account = new BankAccount("Shivi", 1000);
             // STEP 7b: Output a sentence to the console describing the new account, then go back to BankAccount.css for STEP 8 to deal with the fact that we do not yet have a bank account number
-
+            Console.WriteLine($"Account {account.Number} was created for {account.Owner} with {account.Balance} initial Balance");
 
             // STEP 10a: We need to offer the ability for the account holder to make withdrawals and deposits, so let's add another new class in a separate file - go to Project > Add Class... in Visual Studio and create a new class called Transaction.cs
 
@@ -34,12 +35,17 @@ Consider the above list: the first two elements are sort of like properties of t
 
 
             // STEP 20a: Attempt a withdrawal, then output the new account balance to the console
+            account.MakeWithdrawal(500, DateTime.Now, "Fees");
+            Console.WriteLine(account.Balance);
 
             // STEP 20b: Attempt a deposit, then output the new account balance to the console
+            account.MakeDeposit(100, DateTime.Now, "Friend pay me back");
+            Console.WriteLine(account.Balance);
+            Console.WriteLine(account.GetAccountHistory());
 
             // STEP 21: Test for errors by checking to see that the initial balance is positive when opening an account - uncomment the below block of code
-            /*
-            BankAccount invalidAccount;
+            
+            /*BankAccount invalidAccount;
             try
             {
                 invalidAccount = new BankAccount("invalid", -55);
@@ -49,11 +55,11 @@ Consider the above list: the first two elements are sort of like properties of t
                 Console.WriteLine("Exception caught creating account with negative balance");
                 Console.WriteLine(e.ToString());
                 return;
-            }
-            */
+            }*/
+            
 
             // STEP 22: Test for errors by checking to see whether the bank account will allow the user to withdraw more than the account balance - uncomment the below block of code
-            /*
+            
             try
             {
                 account.MakeWithdrawal(750, DateTime.Now, "Attempt to overdraw");
@@ -63,7 +69,7 @@ Consider the above list: the first two elements are sort of like properties of t
                 Console.WriteLine("Exception caught trying to overdraw");
                 Console.WriteLine(e.ToString());
             }
-            */
+            
 
             // STEP 23: The next step is to add a method to the BankAccount class that will output a log of all transactions - go to BankAccount.cs for STEP 24
 

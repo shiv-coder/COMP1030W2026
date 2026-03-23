@@ -57,6 +57,7 @@ namespace Classes
             accountNumberSeed++;
             // STEP 6b: Set the Owner to name and the Balance to initialBalance (note the optional omission of 'this') - head back to Program.cs for STEP 7
             Owner = name;
+            MakeDeposit(initialBalance, DateTime.Now, "InitialBalance");
 
 
         }
@@ -75,9 +76,11 @@ namespace Classes
                     throw new ArgumentOutOfRangeException(nameof(amount), "Amount of deposit must be positive");
                 }
 
-                // STEP 17a: Update this method to instantiate a new Transaction object, with the appropriate arguments
+            // STEP 17a: Update this method to instantiate a new Transaction object, with the appropriate arguments
+            var deposit = new Transaction(amount, date, note);
 
                 // STEP 17b: Add this new deposit to the allTransactions List collection
+                allTransactions.Add(deposit);
             }
             
 
@@ -93,11 +96,11 @@ namespace Classes
                     throw new InvalidOperationException("Not sufficient funds for this withdrawal");
                 }
 
-                // STEP 18a: Update this method to instantiate a new Transaction object, with the appropriate arguments
-
-                // STEP 18b: Add this new withdrawal to the allTransactions List collection
-
-            }
+            // STEP 18a: Update this method to instantiate a new Transaction object, with the appropriate arguments
+            var withdrawl = new Transaction(-amount, date, note);
+            // STEP 18b: Add this new withdrawal to the allTransactions List collection
+            allTransactions.Add(withdrawl);
+        }
             
 
             // STEP 24: Uncomment the below method that iterates through the allTransactions List to output a log of the transactions associated with the bank account, then head back to Program.cs for STEP 25
@@ -110,7 +113,7 @@ namespace Classes
                 foreach (var item in allTransactions)
                 {
                     balance += item.Amount;
-                    report.AppendLine($"{item.Date.ToShortDateString()}\t{item.Amount}\t{balance}\t{item.Notes}");
+                    report.AppendLine($"{item.Date.ToShortDateString()}\t{item.Amount}\t{balance}\t{item.Notes}");//MM/dd/yyyy
                 }
                 return report.ToString();
             }
