@@ -1,0 +1,15 @@
+C:\COMP1030W2026\Lesson11-Lists\bin\Debug\net10.0\Lesson11-Lists.exe
+C:\COMP1030W2026\Lesson11-Lists\bin\Debug\net10.0\Lesson11-Lists.deps.json
+C:\COMP1030W2026\Lesson11-Lists\bin\Debug\net10.0\Lesson11-Lists.runtimeconfig.json
+C:\COMP1030W2026\Lesson11-Lists\bin\Debug\net10.0\Lesson11-Lists.dll
+C:\COMP1030W2026\Lesson11-Lists\bin\Debug\net10.0\Lesson11-Lists.pdb
+C:\COMP1030W2026\Lesson11-Lists\obj\Debug\net10.0\Lesson11-Lists.GeneratedMSBuildEditorConfig.editorconfig
+C:\COMP1030W2026\Lesson11-Lists\obj\Debug\net10.0\Lesson11-Lists.AssemblyInfoInputs.cache
+C:\COMP1030W2026\Lesson11-Lists\obj\Debug\net10.0\Lesson11-Lists.AssemblyInfo.cs
+C:\COMP1030W2026\Lesson11-Lists\obj\Debug\net10.0\Lesson11-Lists.csproj.CoreCompileInputs.cache
+C:\COMP1030W2026\Lesson11-Lists\obj\Debug\net10.0\Lesson11-Lists.sourcelink.json
+C:\COMP1030W2026\Lesson11-Lists\obj\Debug\net10.0\Lesson11-Lists.dll
+C:\COMP1030W2026\Lesson11-Lists\obj\Debug\net10.0\refint\Lesson11-Lists.dll
+C:\COMP1030W2026\Lesson11-Lists\obj\Debug\net10.0\Lesson11-Lists.pdb
+C:\COMP1030W2026\Lesson11-Lists\obj\Debug\net10.0\Lesson11-Lists.genruntimeconfig.cache
+C:\COMP1030W2026\Lesson11-Lists\obj\Debug\net10.0\ref\Lesson11-Lists.dll
